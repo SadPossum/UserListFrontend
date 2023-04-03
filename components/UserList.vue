@@ -136,7 +136,7 @@ export default {
 
       let response = null
       try {
-        response = await this.$axios.get('/api/users', { params })
+        response = await this.$axios.get('/api/user', { params })
       } catch (err) {
         this.loading = false
         return
